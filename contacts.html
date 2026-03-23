@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contacts Page</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 40px;
+        }
+
+        form {
+            width: 400px;
+            padding: 15px;
+            border: 1px solid #000;
+        }
+
+        input, textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        button {
+            padding: 8px 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Contact Information</h2>
+
+    <p><b>Full Name:</b> Otieno Biron Odiwuor</p>
+    <p><b>University:</b> Kisii University</p>
+    <p><b>Email:</b> bironodi@gmail.com</p>
+    <p><b>Phone:</b> 0719719434</p>
+
+    <!-- Email link -->
+    <p>
+        <a href="mailto:bironodi@gmail.com">Email me</a>
+    </p>
+
+    <!-- Horizontal rule -->
+    <hr>
+
+    <!-- Form -->
+    <form>
+
+        <label>Enter your Name:</label><br>
+        <input type="text" name="name"><br>
+
+        <label>E-mail address:</label><br>
+        <input type="email" name="email"><br>
+
+        <label>Message Subject:</label><br>
+        <input type="text" name="subject"><br>
+
+        <label>Enter your Message:</label><br>
+        <textarea name="message"></textarea><br>
+
+        <input type="checkbox"> E-mail a copy of this message to your own address.<br><br>
+
+        <button type="submit">Send</button>
+
+    </form>
+
+</body>
+</html>
